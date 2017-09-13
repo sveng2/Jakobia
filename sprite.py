@@ -8,4 +8,7 @@ class Sprite:
         self.y = y
 
     def load_sprite(self, path):
-        self.form = open(path).readlines()
+        form = open(path).readlines()
+        self.form = []
+        for line in form:
+            self.form.append(line.strip())
