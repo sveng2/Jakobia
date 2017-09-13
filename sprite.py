@@ -1,5 +1,5 @@
 class Sprite:
-    form = ''
+    form = []
     x = 0
     y = 0
 
