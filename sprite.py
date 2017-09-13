@@ -9,12 +9,3 @@ class Sprite:
 
     def load_sprite(self, path):
         self.form = open(path).readlines()
-
-tree1 = Sprite(10,2)
-print(tree1.form)
-
-tree1.load_sprite('/Users/selinaveng/Documents/jakobiamedjakob/Jakobia/sprites/tree.txt')
-
-for line in tree1.form:
-    print(line)
-print(tree1.form)
